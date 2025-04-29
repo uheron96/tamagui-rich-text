@@ -1,0 +1,55 @@
+{
+  "name": "tamagui-rich-text",
+  "version": "1.0.0",
+  "main": "index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts",
+    "dev": "tsup src/index.ts --watch",
+    "test": "vitest",
+    "lint": "eslint src --ext .ts",
+    "format": "prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uheron96/tamagui-rich-text.git"
+  },
+  "keywords": [
+    "typescript",
+    "text",
+    "parser",
+    "open-source",
+    "tamagui"
+  ],
+  "author": "Uliana Heron",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/uheron96/tamagui-rich-text/issues"
+  },
+  "homepage": "https://github.com/uheron96/tamagui-rich-text#readme",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.15.3",
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "eslint": "^9.25.1",
+    "prettier": "^3.5.3",
+    "tsup": "^8.4.0",
+    "typescript": "^5.8.3",
+    "vitest": "^3.1.2"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}
