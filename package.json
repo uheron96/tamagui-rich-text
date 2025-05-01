@@ -1,5 +1,5 @@
 {
-  "name": "@uheron96/tamagui-rich-text",
+  "name": "tamagui-rich-text",
   "version": "1.0.0",
   "main": "index.js",
   "module": "dist/index.mjs",
