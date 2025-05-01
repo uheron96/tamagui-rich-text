@@ -1,5 +1,5 @@
 {
-  "name": "tamagui-rich-text",
+  "name": "@uheron96/tamagui-rich-text",
   "version": "1.0.0",
   "main": "index.js",
   "module": "dist/index.mjs",
@@ -55,6 +55,6 @@
     "react-dom": "^19.1.0"
   },
   "publishConfig": {
-    "@uheron96:registry": "https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com/"
   }
 }
