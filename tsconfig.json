@@ -8,10 +8,9 @@
     "strict": true,
     "moduleResolution": "node",
     "esModuleInterop": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "lib": ["DOM", "ES2020"],
+    "types": ["react", "node"]
   },
-  "include": ["src"],
-  "jsx": "react-jsx",
-  "lib": ["DOM", "ES2020"],
-  "types": ["react", "node"]
+  "include": ["src"]
 }

@@ -1,7 +1,7 @@
 {
   "name": "tamagui-rich-text",
-  "version": "1.0.0",
-  "main": "index.js",
+  "version": "4.0.0",
+  "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "exports": {
@@ -18,7 +18,8 @@
     "dev": "tsup src/index.ts --watch",
     "test": "jest",
     "lint": "eslint src --ext .ts",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
